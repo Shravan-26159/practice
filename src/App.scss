@@ -1,0 +1,45 @@
+:root {
+  --gap:14px;
+  --max-width: 1800px;
+   
+}
+
+*,*::after,*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.parent {
+  width: 100%;
+
+  .cont {
+    max-width: var(--max-width);
+    margin: 0px auto;
+    padding: 0px 20px;
+  }
+}
+
+.btn {
+  width: auto;
+  height: auto;
+  padding: 8px 16px;
+  text-align: center;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  border-radius: var(--gap);
+  border: 1px solid transparent;
+  transition: all 0.3s ease;
+
+  &:hover {
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+}
+}
+
