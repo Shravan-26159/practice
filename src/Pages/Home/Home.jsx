@@ -34,7 +34,7 @@ const Home = () => {
         <div class="about_cont">
          { /* left side text */}
           <div class="abour_text">
-            <h2>Modern Style<br/>Timeless charm</h2>
+            <h2>Modern<br/>Timeless charm</h2>
             <p>
               Discover Poliform’s 2024 preview, featuring sofas, chairs, and
               armchairs embodying diverse lifestyle concepts, alongside striking
